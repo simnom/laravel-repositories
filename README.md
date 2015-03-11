@@ -64,3 +64,5 @@ class CategoryEloquentRepository extends BaseRepository implements CategoryRepos
 #### Notes
 
 This is my first foray into package creation, go easy ;-)
+
+Credit to Mirza Pasic's article at http://bosnadev.com/2015/03/07/using-repository-pattern-in-laravel-5 for the basis of this package
