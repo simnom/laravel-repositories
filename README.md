@@ -54,6 +54,18 @@ class CategoryEloquentRepository extends BaseRepository implements CategoryRepos
             ->where('aa', '!=', 'bb')
             ->get()
 ```
+## Available methods
+
+For parameters for specific values check the src
++ all()
++ first()
++ findFirstBy()
++ findAllBy()
++ create()
++ update()
++ delete()
++ firstOrCreate()
++ firstOrNew()
 
 ### TODO
  - Exception handling
