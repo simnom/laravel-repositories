@@ -9,9 +9,9 @@ interface BaseInterface
 
     public function find($id, array $relations = []);
 
-    public function findFirstBy($key, $value, $relations);
+    public function findFirstBy($key, $value, array $relations = []);
 
-    public function findAllBy($key, $value, $relations);
+    public function findAllBy($key, $value, array $relations = []);
 
     public function create($array);
 
