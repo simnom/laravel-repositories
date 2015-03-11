@@ -1,5 +1,5 @@
 # Basic Laravel Repositories
-A basic repository structure for Laravel currently implementing Eloquent.
+A basic repository structure for Laravel 5 currently implementing Eloquent.
 
 ## Installing via composer
 Add `"simnom/laravel-repositories": "0.0.1"` to your composer.json file and run `composer update`
@@ -56,6 +56,7 @@ class CategoryEloquentRepository extends BaseRepository implements CategoryRepos
 ```
 
 ### TODO
+ - Exception handling
  - Add some tests
  - Add pagination methods
  - Add additional ORMs if required
