@@ -1,0 +1,35 @@
+{
+  "name": "simnom/laravel-repositories",
+  "description": "Base Laravel Repositories",
+  "keywords": [
+    "laravel",
+    "repository",
+    "repositories",
+    "eloquent",
+    "database"
+  ],
+  "licence": "MIT",
+  "authors": [
+    {
+      "name": "Simon Bennett",
+      "email": "simon@simnom.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.*",
+    "illuminate/database": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Simnom\\Repositories\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Simnom\\Tests\\Repositories\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
